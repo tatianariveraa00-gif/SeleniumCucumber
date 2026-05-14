@@ -2,7 +2,7 @@ package pages;
  
 public class PaginaCursos extends BasePage {
  
-    private String fundamentosTestingLink = "//a[normalize-space()='Fundamentos del Testing' and @href]";
+    private String fundamentosTestingLink = "//a[@href='/introduccion-al-testing-de-software' and text()='Ver producto']";
  
     public PaginaCursos() {
         super(driver);
